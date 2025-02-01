@@ -1,0 +1,18 @@
+<!-- control/templates/control/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Controle do ESP32</title>
+</head>
+<body>
+    <h1>Controle do ESP32</h1>
+    <ul>
+        <li><a href="{% url 'ligar' %}">Ligar</a></li>
+        <li><a href="{% url 'desligar' %}">Desligar</a></li>
+        <li><a href="{% url 'aumentar' %}">Aumentar Temperatura</a></li>
+        <li><a href="{% url 'diminuir' %}">Diminuir Temperatura</a></li>
+        <li><a href="{% url 'definir_temperatura' %}">Definir Temperatura</a></li>
+    </ul>
+</body>
+</html>
